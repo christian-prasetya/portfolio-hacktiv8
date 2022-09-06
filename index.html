@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class='navbar'>
+      <div class="logo">
+        <a href="#">&lt;CP<span class='gold'>/</span>&gt;</a>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-info">
+        <div class="hero-info-section">
+          <h1 class='hero-info__title'>I am here for your personal and professional web development.</h1>
+          <p class='hero-info__desc'>Having a website that represent yourself or your company shouldn't be hard and
+            taking
+            a lot of your time. I am here to help your online branding, personally or professionally, to expand your
+            online presence.</p>
+        </div>
+        <div class="hero-info-button">
+          <a href="#" class='btn-main'>Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/laptop-with-website-by-oblik-studio.png" alt="laptop with website illustration">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-profile">
+        <div class="about-profile-container">
+          <img src="images/christian - transparent.png" alt="Christian Prasetya">
+          <div class="profile-info">
+            <p class='greeting'>Hello, I'm</p>
+            <h2>Christian Prasetya</h2>
+            <p class='job-title'>Front-End Web Developer</p>
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div class="about-container">
+          <div class="about-nav">
+            <div class="tab">
+              <button class="tablinks" onclick="openTab(event, 'About')" id='defaultOpen'>About</button>
+              <button class="tablinks" onclick="openTab(event, 'Services')">Services</button>
+            </div>
+          </div>
+
+          <div id="About" class="tabcontent">
+            <div class="about-content">
+              <p class='about-title'>About Me</p>
+              <h3>Who am I?</h3>
+              <p>
+                Hello! My name is Christian and I enjoy designing and web development. My interest in web development
+                started back in 2018 when I having chance to handling marketing communication department in one of the
+                largest real estate development in Surabaya which developed by one of the largest media and
+                entertainment company in Indonesia.
+              </p>
+              <p>
+                Fast forward to today, I had my chance to going solo by working as <span class='freelance'>Freelance
+                  Developer</span>. My
+                main focus is helping small businesses and people that need digital branding online.
+              </p>
+
+            </div>
+
+            <div class="about-btn">
+              <a href="#" class="btn-small">Learn More About Me</a>
+            </div>
+
+          </div>
+
+          <div id="Services" class="tabcontent">
+            <div class="about-service">
+              <h3>Services</h3>
+              <p>Here some services I can offer:</p>
+              <ul>
+                <li>UI/UX Design</li>
+                <li>Landing Page Design & Develop</li>
+                <li>Full Website Design & Develop</li>
+                <li>Marketing Campaign Consultant</li>
+                <li>Branding Consultant</li>
+                <li>Other</li>
+              </ul>
+              <p>Need other services? Contact me for another inquiry.</p>
+            </div>
+
+            <div class="about-btn">
+              <a href="#" class="btn-small">Inquiry</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- About section end -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="portfolio-container">
+        <h2>My Portfolio</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="images/portfolio/nft-preview-card.jpg" alt="">
+            <p>NFT Preview Card</p>
+            <div class="text-container">
+              <a href="https://christian-prasetya.github.io/nft-preview-card-component/" class='btn-small'>Live
+                Preview</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/portfolio/qr-code-component.jpg" alt="">
+            <p>QR Code</p>
+            <div class="text-container">
+              <a href="https://christian-prasetya.github.io/qr-code-component/" class='btn-small'>Live Preview</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/portfolio/social-proof-section.jpg" alt="">
+            <p>Social Proof Section</p>
+            <div class="text-container">
+              <a href="https://christian-prasetya.github.io/social-proof-section/" class='btn-small'>Live Preview</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/portfolio/stats-preview-card.jpg" alt="">
+            <p>Stats Preview Card</p>
+            <div class="text-container">
+              <a href="https://christian-prasetya.github.io/stats-preview-card-component/" class='btn-small'>Live
+                Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="visit-github">
+        <a href="https://github.com/christian-prasetya" class='git-btn' target='_blank'>View More on GitHub</a>
+      </div>
+    </section>
+
+    <!-- Blog-section start -->
+    <section id="blog">
+      <div class="blog-container">
+        <h2>Read My Blog</h2>
+        <div class="blog-card-container">
+          <div class="blog-card">
+            <img src="images/blog/blog-tips-belajar-web-dev.jpg" alt="Web Programming">
+            <div class="blog-title">
+              <h4>Tips belajar web programming untuk pemula</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam tempora nisi quo esse, ratione
+                sint eligendi. Earum sed eaque maiores! Molestiae repudiandae eligendi nemo sunt quod doloremque porro
+                esse.</p>
+            </div>
+            <div class="btn-container">
+              <a href="" class='btn-small'>Read More</a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <img src="images/blog/blog-desk-setup.jpg" alt="Programmer Desk Setup">
+            <div class="blog-title">
+              <h4>Tips mengatur meja kerja agar nyaman</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam tempora nisi quo esse, ratione
+                sint eligendi. Earum sed eaque maiores! Molestiae repudiandae eligendi nemo sunt quod doloremque porro
+                esse.</p>
+            </div>
+            <div class="btn-container">
+              <a href="" class='btn-small'>learn More</a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <img src="images/blog/blog-javascript.jpg" alt="Belajar Javascript">
+            <div class="blog-title">
+              <h4>Buat websitemu interactive dengan JavaScript</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam tempora nisi quo esse, ratione
+                sint eligendi. Earum sed eaque maiores! Molestiae repudiandae eligendi nemo sunt quod doloremque porro
+                esse.</p>
+            </div>
+            <div class="btn-container">
+              <a href="" class='btn-small'>Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog section end -->
+
+    <!-- Team section Start -->
+    <section id="team">
+      <div class="team-container">
+        <h2>Meet The Team</h2>
+        <div class="team-card-container">
+          <div class='team-card'>
+            <img src="images/User-Profile-cop.png" alt="">
+            <h3>John Doe</h3>
+            <p>UI/UX Designer</p>
+          </div>
+          <div class='team-card'>
+            <img src="images/User-Profile-cop.png" alt="">
+            <h3>John Constantine</h3>
+            <p>Copywriter</p>
+          </div>
+          <div class='team-card'>
+            <img src="images/User-Profile-cop.png" alt="">
+            <h3>Doe John</h3>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <h3 class='help'>Our professional team will gladly assist your problem</h3>
+        <h2 class='everyday'>24/7</h2>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="social-container">
+          <div class="about-social">
+            <h3>Let's Connect</h3>
+            <div class='about-social__icon'>
+              <div class="social-icon-container">
+                <div class='icon-title'>
+                  <p>GitHub</p>
+                </div>
+                <div class="social-icon"><a href="https://github.com/christian-prasetya" target='_blank'><i
+                      class="fa-brands fa-github"></i></a></div>
+              </div>
+              <div class="social-icon-container">
+                <div class="icon-title">
+                  <p>Facebook</p>
+                </div>
+                <div class="social-icon"><a href="https://www.facebook.com/cprasetya" target='_blank'><i
+                      class="fa-brands fa-facebook"></i></a></div>
+              </div>
+              <div class="social-icon-container">
+                <div class="icon-title">
+                  <p>Instagram</p>
+                </div>
+                <div class="social-icon"><a href="https:www.instagram.com/cprasetya28" target='_blank'><i
+                      class="fa-brands fa-instagram"></i></a></div>
+              </div>
+              <div class="social-icon-container">
+                <div class="icon-title">
+                  <p>LinkedIn</p>
+                </div>
+                <div class="social-icon"><a href="https://www.linkedin.com/in/christianprasetya/" target='_blank'><i
+                      class="fa-brands fa-linkedin"></i></a></div>
+              </div>
+              <div class="social-icon-container">
+                <div class="icon-title">
+                  <p>Twitter</p>
+                </div>
+                <div class="social-icon"><a href="https://www.twitter.com/cprasetya28" target='_blank'><i
+                      class="fa-brands fa-twitter"></i></a></div>
+              </div>
+              <div class="social-icon-container">
+                <div class="icon-title">
+                  <p>Whatsapp</p>
+                </div>
+                <div class="social-icon"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-container">
+          <div class="contact-header">
+            <h3>Need our service?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, odio earum itaque perferendis beatae
+              officia eligendi quos, facere amet vel error enim mollitia.</p>
+          </div>
+          <div class="contact-form">
+            <form class='form-control'>
+              <div class="form-card">
+                <input type="text" name="nama" id="nama" placeholder='Enter your first name'>
+              </div>
+              <div class="form-card">
+                <input type="email" name="email" id="email" placeholder='Enter your email exp. johndoe@mail.com'>
+              </div>
+              <div class="form-card">
+                <textarea name="message" id="message" cols="30" rows="10" maxlength='300'
+                  placeholder='Please enter your message...'></textarea>
+                <p id="charcount">Remaining Characters <span id="remaining-chars">300</span>/300</p>
+              </div>
+              <a href="#" class="btn-small">Submit</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+  </main>
+
+  <footer>
+    <p class='footer__info'>Create by &copy <a href="https://github.com/christian-prasetya"
+        class='footer_link'>Christian
+        Prasetya</a></p>
+  </footer>
+
+
+  <script src="script/index.js"></script>
+</body>
+
+</html>
