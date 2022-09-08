@@ -80,10 +80,11 @@ nav {
   font-size: 3rem;
   margin: .5rem;
   font-weight: 700;
+
 }
 
 .logo a {
-  color: white;
+  color: rgb(167, 142, 0);
   text-decoration: none;
 }
 
@@ -370,6 +371,7 @@ main {
 
 .card {
   width: 30%;
+  max-height: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 20px;
@@ -433,6 +435,7 @@ main {
 
 .blog-title p {
   color: lightgray;
+  line-height: 1.2;
 }
 
 .blog-card-container {
@@ -451,6 +454,7 @@ main {
 
 .blog-card {
   width: 30%;
+  max-height: 650px;
   box-shadow: 0 4px 10px 0 rgba(160, 160, 160, 0.281);
   transition: 0.3s;
   border-radius: 10px;
