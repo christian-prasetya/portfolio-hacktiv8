@@ -621,6 +621,7 @@ main {
 
 .contact-header {
   width: 40%;
+  padding-right: 10px;
 }
 
 .contact-header h3 {
